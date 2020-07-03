@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Objective5Lab4 {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+
+    System.out.println("Enter any number, positive or negative.");
+    int num = scan.nextInt();
+    scan.close();
+    if(num % 2 == 0){
+      System.out.println(num + " is even.");
+    }
+    else {
+      System.out.println(num + " is odd.");
+    }
+
+  }
+}
